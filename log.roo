@@ -1,0 +1,31 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-06-15 14:30:58
+project --topLevelPackage com.newway.reportapp
+jpa setup --provider HIBERNATE --database MYSQL --databaseName sdp
+web mvc setup
+quit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-06-15 14:32:20
+// Spring Roo 1.3.2.RELEASE [rev d18aef8] log opened at 2016-06-15 14:38:13
+class --class ~.web.BaoCaoTheoGoiCuocController
+web mvc controller --class ~.web.BaoCaoTheoGoiCuocController --preferredMapping 
+class --class ~.web.BaoCaoTheoDTKHController
+web mvc controller --class ~.web.BaoCaoTheoDTKHController --preferredMapping 
+class --class ~.web.BaoCaoGiaHanController
+web mvc controller --class ~.web.BaoCaoGiaHanController --preferredMapping 
+class --class ~.web.BaoCaoHuyDichVuController
+web mvc controller --class ~.web.BaoCaoHuyDichVuController --preferredMapping 
+class --class ~.web.BaoCaoMuaMoi&MuaThemController
+// [failed] web mvc controller --class ~.web.BaoCaoMuaMoi&MuaThemController --preferredMapping 
+class --class ~.web.BaoCaoNapTheController
+web mvc controller --class ~.web.BaoCaoNapTheController --preferredMapping 
+class --class ~.web.BaoCaoTheoDVDataController
+web mvc controller --class ~.web.BaoCaoTheoDVDataController --preferredMapping 
+class --class ~.web.BaoCaoTheoDVThoaiController
+web mvc controller --class ~.web.BaoCaoTheoDVThoaiController --preferredMapping 
+class --class ~.web.BaoCaoTheoDVSMSController
+web mvc controller --class ~.web.BaoCaoTheoDVSMSController --preferredMapping 
+class --class ~.web.BaoCaoKHMuaLoiController
+web mvc controller --class ~.web.BaoCaoKHMuaLoiController --preferredMapping 
+class --class ~.web.BaoCaoDoanhThuController
+web mvc controller --class ~.web.BaoCaoDoanhThuController --preferredMapping 
+class --class ~.web.BaoCaoLichSuKHController
+web mvc controller --class ~.web.BaoCaoLichSuKHController --preferredMapping 
